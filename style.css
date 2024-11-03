@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* Universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 'lato' font taken from font.google.com */
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/free-vector/gradient-liquid-abstract-background_23-2148916639.jpg?t=st=1730645313~exp=1730648913~hmac=ef1d2263b06e55f2f331a1c7e35a2fa3c8bd6620a449a26d295aaf002cf2b908&w=1380);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-box {
+    width: 18rem;
+    position: relative;
+    padding: 20px 40px;
+}
+
+.signup-header h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 2.5em;
+    color: #212121;
+}
+
+.signup-header p{
+    font-size: 0.9rem;
+    color: #555;
+    text-shadow: 2px 2px 5px rgba(red, green, blue, alpha)
+}
+
+.signup-body {
+    margin: 20px 0;
+}
+
+.signup-body p {
+    margin: 10px 0;
+}
+
+.signup-body p label {
+    text-align: left;
+    margin: 5px;
+    display:block;
+}
+
+.i2 {
+    position: relative;
+    top: 5px;
+}
+
+.i3 {
+    position: relative;
+    top: 10px;
+}
+
+.signup-body p input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    font-size: 1rem;
+}
+
+.signup-body p input[type="submit"] {
+    position: relative;
+    border-radius: 50px;
+    top: 15px;
+    left: 10px;
+    border: none;
+    background-color: rgb(164, 164, 204);
+    color: white;
+}
+
+
+#submit:hover{
+    cursor: pointer;
+    background-color: rgb(151, 113, 62);
+}
+
+.signup-footer p {
+    position: relative;
+    top: 5px;
+}
+
+.signup-footer p a:hover{
+    color: red;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #777;
+}
